@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Write",
+      "Edit",
+      "Task",
+      "TodoWrite",
+      "NotebookEdit",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "deny": []
+  },
+  "safety": {
+    "confirm_before_push": true,
+    "confirm_before_delete": true,
+    "require_codex_review_before_push": true
+  }
+}
